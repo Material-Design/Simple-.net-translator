@@ -38,14 +38,14 @@ Partial Class Form1
         Me.TextBox1.Location = New System.Drawing.Point(198, 25)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.TabIndex = 1
         '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(12, 25)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 1
+        Me.TextBox2.TabIndex = 0
         '
         'Label1
         '
@@ -131,6 +131,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form1"
         Me.Text = ".net translator"
         Me.ResumeLayout(false)
