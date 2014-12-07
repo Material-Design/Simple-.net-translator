@@ -82,7 +82,7 @@ Partial Class Form1
         Me.RadioButton1.Size = New System.Drawing.Size(74, 17)
         Me.RadioButton1.TabIndex = 5
         Me.RadioButton1.TabStop = true
-        Me.RadioButton1.Text = "Fre <- Eng"
+        Me.RadioButton1.Text = "Fre -> Eng"
         Me.RadioButton1.UseVisualStyleBackColor = true
         '
         'RadioButton2
