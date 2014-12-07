@@ -31,7 +31,7 @@ Partial Class Form1
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.SuspendLayout()
+        Me.SuspendLayout
         '
         'TextBox1
         '
@@ -49,7 +49,7 @@ Partial Class Form1
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
+        Me.Label1.AutoSize = true
         Me.Label1.Location = New System.Drawing.Point(21, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(70, 13)
@@ -58,7 +58,7 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
+        Me.Label2.AutoSize = true
         Me.Label2.Location = New System.Drawing.Point(216, 9)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 13)
@@ -72,30 +72,30 @@ Partial Class Form1
         Me.Button1.Size = New System.Drawing.Size(127, 42)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Translate!"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = true
         '
         'RadioButton1
         '
-        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.AutoSize = true
         Me.RadioButton1.Location = New System.Drawing.Point(118, 35)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(74, 17)
         Me.RadioButton1.TabIndex = 5
-        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.TabStop = true
         Me.RadioButton1.Text = "Fre <- Eng"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButton1.UseVisualStyleBackColor = true
         '
         'RadioButton2
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Checked = True
+        Me.RadioButton2.AutoSize = true
+        Me.RadioButton2.Checked = true
         Me.RadioButton2.Location = New System.Drawing.Point(118, 12)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(74, 17)
         Me.RadioButton2.TabIndex = 6
-        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.TabStop = true
         Me.RadioButton2.Text = "Eng -> Fre"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButton2.UseVisualStyleBackColor = true
         '
         'Button2
         '
@@ -104,12 +104,12 @@ Partial Class Form1
         Me.Button2.Size = New System.Drawing.Size(127, 41)
         Me.Button2.TabIndex = 7
         Me.Button2.Text = "Copy translation"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = true
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.AutoSize = true
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label3.Location = New System.Drawing.Point(12, 103)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(103, 12)
@@ -118,7 +118,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(314, 120)
@@ -133,10 +133,10 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
         Me.Text = ".net translator"
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox

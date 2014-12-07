@@ -1,6 +1,6 @@
 ﻿Public Class Form1
     Dim English() As String = {"hello", "goodbye", "you", "and", "say", "my", "but", "name", "is"}
-    Dim French() As String = {"bonjour", "au revoir", "vous", "et", "aire", "aa", "acheter", "nom", "est"}
+    Dim French() As String = {"bonjour", "au revoir", "vous", "et", "aire", "ma", "acheter", "nom", "est"}
     Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
         'checking which radiobutton is clicked to set one textbox to readonly
         If RadioButton2.Checked = True Then
@@ -88,5 +88,9 @@
             End Select
 
         End If
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
